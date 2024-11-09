@@ -1,10 +1,18 @@
 {
-  "name": "Disney",
+  "name": "disney",
   "version": "1.0.0",
-  "description": "",
   "main": "src/index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
