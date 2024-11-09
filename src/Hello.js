@@ -1,7 +1,7 @@
 // hello.js
 function sayHello() {
   const appDiv = document.getElementById("app");
-  appDiv.innerHTML = "Hello testing!";
+  appDiv.innerHTML = "Hello main!";
 }
 
 export default sayHello;
