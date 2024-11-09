@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// hello.js\nfunction sayHello() {\n  const appDiv = document.getElementById(\"app\");\n  appDiv.innerHTML = \"Hello hellkklllkkko!\";\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sayHello);\n\n\n// test\n\n//# sourceURL=webpack://disney/./src/Hello.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// hello.js\nfunction sayHello() {\n  const appDiv = document.getElementById(\"app\");\n  appDiv.innerHTML = \"Hello testing!\";\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sayHello);\n\n\n// test\n\n//# sourceURL=webpack://disney/./src/Hello.js?");
 
 /***/ }),
 
