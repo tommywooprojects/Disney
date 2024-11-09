@@ -1,10 +1,23 @@
 {
-  "name": "Disney",
+  "name": "disney",
   "version": "1.0.0",
-  "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "deploy": "npm run build && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "homepage": "https://tommyboyprojects.github.io/Disney"
 }
