@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/hello.js":
+/***/ "./src/Hello.js":
 /*!**********************!*\
-  !*** ./src/hello.js ***!
+  !*** ./src/Hello.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// hello.js\nfunction sayHello() {\n  const appDiv = document.getElementById(\"app\");\n  appDiv.innerHTML = \"Hello World!\";\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sayHello);\n\n\n// test\n\n//# sourceURL=webpack://disney/./src/hello.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// hello.js\nfunction sayHello() {\n  const appDiv = document.getElementById(\"app\");\n  appDiv.innerHTML = \"Hello World!\";\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sayHello);\n\n\n// test\n\n//# sourceURL=webpack://disney/./src/Hello.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello.js */ \"./src/hello.js\");\n// index.js\n\n\n(0,_hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nconsole.log('Happy developing ✨')\n\n//# sourceURL=webpack://disney/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Hello_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Hello.js */ \"./src/Hello.js\");\n// index.js\n\n\n(0,_Hello_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nconsole.log('Happy developing ✨')\n\n//# sourceURL=webpack://disney/./src/index.js?");
 
 /***/ })
 
