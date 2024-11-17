@@ -44,11 +44,10 @@ export function addModal(item) {
       // show modal content only after the image has been loaded so that the text and image appears at the same time
       modalImg.onload = () => {
         modalContent.append(modalImg);
-        modal.append(modalContent);
       };
-    } else {
-      modal.append(modalContent);
     }
+    
+    modal.append(modalContent);
     
     document.body.append(modal);
   }
