@@ -41,7 +41,7 @@ export function addModal(item) {
         modalImg.remove();
       };
       
-      // show modal content only after the image has been loaded so that the text and image appears at the same time
+      // show modal content only after the image has been loaded so that the text and image appears at the same time.
       modalImg.onload = () => {
         modalContent.append(modalImg);
         modal.append(modalContent);
